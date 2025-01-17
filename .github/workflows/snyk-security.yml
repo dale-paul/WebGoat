@@ -3,9 +3,9 @@ name: 'AbbVie Snyk Scan Action'
 on: 
   push:
     branches:
-      - '[Mn]ain'
-      - '[Mn]aster'
-      - '[Dd]ev*'
+      - main
+      - master
+      - dev*
 
 env: 
   SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
