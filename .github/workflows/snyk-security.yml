@@ -3,9 +3,11 @@ name: 'AbbVie Snyk Scan Action'
 on: 
   push:
     branches:
-      - main
-      - development
-  workflow_dispatch:
+      - '[Mn]ain'
+      - '[Mn]aster'
+      - '[Dd]evelopment'
+      - '[Dd]evelop'
+  #workflow_dispatch:
 
 env: 
   SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
