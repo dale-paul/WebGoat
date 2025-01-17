@@ -3,8 +3,9 @@ name: 'AbbVie Snyk Scan Action'
 on: 
   push:
     branches:
-      - main
-      - development
+      - '[Mn]ain'
+      - '[Mn]aster'
+      - '[Dd]ev**'
   workflow_dispatch:
 
 env: 
