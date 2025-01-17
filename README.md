@@ -7,6 +7,7 @@
 [![Gitter](https://badges.gitter.im/OWASPWebGoat/community.svg)](https://gitter.im/OWASPWebGoat/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Discussions](https://img.shields.io/github/discussions/WebGoat/WebGoat)](https://github.com/WebGoat/WebGoat/discussions)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
+[![AbbVie Snyk Scan Action](https://github.com/dale-paul/WebGoat/actions/workflows/snyk-security.yml/badge.svg)](https://github.com/dale-paul/WebGoat/actions/workflows/snyk-security.yml)
 
 # Introduction
 
