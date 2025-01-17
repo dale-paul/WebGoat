@@ -5,9 +5,8 @@ on:
     branches:
       - '[Mn]ain'
       - '[Mn]aster'
-      - '[Dd]ev**'
-  # workflow_dispatch:
-
+      - 'dev**'
+      
 env: 
   SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
   SAST_FILE: "./sast.json"
