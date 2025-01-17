@@ -5,7 +5,7 @@ on:
     branches:
       - '[Mn]ain'
       - '[Mn]aster'
-      - 'dev**'
+      - '[Dd]ev**'
       
 env: 
   SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
