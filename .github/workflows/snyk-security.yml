@@ -6,7 +6,6 @@ on:
       - '[Mn]ain'
       - '[Mn]aster'
       - '[Dd]ev**'
-  # workflow_dispatch:
 
 env: 
   SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
