@@ -5,8 +5,7 @@ on:
     branches:
       - '[Mn]ain'
       - '[Mn]aster'
-      - '[Dd]ev**'
-  # workflow_dispatch:
+      - '[Dd]ev*'
 
 env: 
   SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
